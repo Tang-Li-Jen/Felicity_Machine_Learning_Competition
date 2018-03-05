@@ -11,6 +11,34 @@ Train and test datasets, from different set of users, contain user-hero pairs in
 We also have "hero_data.csv" which contains information about heros.
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/role_feature.PNG)
 
+## Method
+In this part we divide the feature engineering into three aspects:
+Users, Heroes and Interaction of them. It reads as follows.
+1. Users
+Assuming there is a between-users variance, we took Users’
+self-performance in account. KDA ratio may be influenced by users’
+effort, skills or mindset etc., so we calculate users’ total number of
+games, total win games and mean win ratio to represent it.
+2. Heroes
+We think each hero has his/her pros and cons. However, some
+heroes are probably meta for current version, so they are especially good
+to use or easy to dominate the games with higher KDA ratio. We
+calculate heroes’ total number of games, total win games and mean win
+ratio to measure it.
+Additionally, we grouped heroes into several types by their abilities
+like base_health, base_str and base agi etc. Also, we calculate each hero
+group’s total number of games, total win games and mean win ratio to
+represent group performance.
+3. Interaction of Users and Heroes
+Not only consider users’ and heroes ’features respectively, we also
+take their interaction effect into account. Users play different types of
+heroes may have different performance, especially when some kind of
+heroes fit users’ potential well. As a result, given different primary_attr
+and hero groups, we calculate their total number of games, total win
+games and mean win ratio to measure interaction effect.
+## Result
+
+
 ## Reproduce
 The steps you need to do for final submission are shown below:
 1. set the root path in dota2_DataManipulation.py
