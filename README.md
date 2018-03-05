@@ -43,7 +43,7 @@ parameters, n_estimators and max_depth in XGBoost model, and get the
 best model parameters, n_estimators=800, max_depth=9. Finally, we get
 the final submissions.
 ## Result
-We are Team **NTUBusinessSchool** and get the 5th prize in private leaderboard.
+We are Team **NTUBusinessSchool** and get the **5th** prize in private leaderboard.  
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/rank.PNG)
 ## Reproduce
 The steps you need to do for final submission are shown below:
