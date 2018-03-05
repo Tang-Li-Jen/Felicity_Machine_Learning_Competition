@@ -17,3 +17,5 @@ The steps you need to do for final submission are shown below:
 4. run 'python dota2_DataManipulation.py'
 5. get the submission file, submit.csv, on the root folder
 
+## Reference
+Felicity : Kings of Machine Learning: https://datahack.analyticsvidhya.com/contest/kings-of-machine-learning/
