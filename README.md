@@ -11,15 +11,14 @@ We also have "hero_data.csv" which contains information about heros.
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/role_feature.PNG)
 
 ## Method
-We use train9.csv, train1.csv and test9.csv as training dataset to do feature engineering and build predictive model.  
-we divide the feature engineering into three aspects:
-Users, Heroes and Interaction of them. It reads as follows.
-1. Users
+We use train9.csv, train1.csv and test9.csv as training dataset to do feature engineering and build predictive model.  
+First, We divide the feature engineering into three aspects, which are shown below:
+1. Users  
 Assuming there is a between-users variance, we took Users’
 self-performance in account. KDA ratio may be influenced by users’
 effort, skills or mindset etc., so we calculate users’ total number of
 games, total win games and mean win ratio to represent it.
-2. Heroes
+2. Heroes  
 We think each hero has his/her pros and cons. However, some
 heroes are probably meta for current version, so they are especially good
 to use or easy to dominate the games with higher KDA ratio. We
@@ -29,7 +28,7 @@ Additionally, we grouped heroes into several types by their abilities
 like base_health, base_str and base agi etc. Also, we calculate each hero
 group’s total number of games, total win games and mean win ratio to
 represent group performance.
-3. Interaction of Users and Heroes
+3. Interaction of Users and Heroes  
 Not only consider users’ and heroes ’features respectively, we also
 take their interaction effect into account. Users play different types of
 heroes may have different performance, especially when some kind of
