@@ -43,8 +43,19 @@ parameters, n_estimators and max_depth in XGBoost model, and get the
 best model parameters, n_estimators=800, max_depth=9. Finally, we get
 the final submissions.
 ## Result
-We are Team **NTUBusinessSchool** and get the **5th** prize in private leaderboard.  
+We are Team **NTUBusinessSchool** and get the **5th** prize in private leaderboard.
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/rank.PNG)
+## Improvement
+During the feature engineering process, some of the features are the
+arg. Of the groups data, which might data peeking problem (the feature
+contain the information of the response). And this prevent the model
+represent the ground true, and make our cross validation error
+inconsistent with the score in leaderboard.
+Therefore, we should introduce techniques like cross feature
+engineering. Just like the original training data, we have train1 and train9,
+we should use the train0 data to calculate the feature for train1, and
+replace the data in train1 from train9 9 times to make all the training
+data have their correct feature values.
 ## Reproduce
 The steps you need to do for final submission are shown below:
 1. set the root path in dota2_DataManipulation.py
