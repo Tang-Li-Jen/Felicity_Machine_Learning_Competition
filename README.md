@@ -11,8 +11,8 @@ We also have "hero_data.csv" which contains information about heros.
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/role_feature.PNG)
 
 ## Method
-We use train9.csv, train1.csv and test9.csv as training dataset to do feature engineering and build predictive model.  
-First, We divide the feature engineering into three aspects, which are shown below:
+### Feature Engineering
+We use train9.csv, train1.csv and test9.csv as training dataset to do feature engineering, which are shown below:
 1. Users  
 Assuming there is a between-users variance, we took Users’
 self-performance in account. KDA ratio may be influenced by users’
