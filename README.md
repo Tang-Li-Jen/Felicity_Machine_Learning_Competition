@@ -12,6 +12,9 @@ We also have "hero_data.csv" which contains information about heros.  
 
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/role_feature.PNG)
 
+## Measure
+1. The predictions will be evaluated on **RMSE**.
+2. The public private split is **40:60**.
 ## Method
 ### Feature Engineering
 We used train9.csv, train1.csv and test9.csv as training dataset to do feature engineering, which are shown below:
