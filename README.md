@@ -38,22 +38,22 @@ heroes fitted users’ potential well. As a result, given different primary_attr
 and hero groups, we calculated their total number of games, total win
 games and mean win ratio to measure interaction effect.
 ### Modeling
-About the model selection, we choose **XGboost** as our primary
-model, and we are going to use grid search to find tune the model
+About the model selection, we chose **XGboost** as our primary
+model, and we were going to use grid search to fine-tune the model
 performance, leverage the **GridSearchCV** in sklearn on the following two
 parameters, n_estimators and max_depth in XGBoost model, and get the
-best model parameters, n_estimators=800, max_depth=9. Finally, we get
+best model parameters, n_estimators=800, max_depth=9. Finally, we got
 the final submissions.
 ## Result
 We are Team **NTUBusinessSchool** and got the **5th** prize in private leaderboard.  
 
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/rank.PNG)
 ## Improvement
-During the feature engineering process, some of the features are the
+During the feature engineering process, some of the features were the
 arg. Of the groups data, which might data peeking problem (the feature
-contain the information of the response). And this prevent the model
-represent the ground true, and make our cross validation error
-inconsistent with the score in leaderboard.
+contain the information of the response). And this prevented the model
+from representing the ground true, and made our cross validation error
+inconsistent with the score in public leaderboard.
 Therefore, we should introduce techniques like cross feature
 engineering. Just like the original training data, we have train1 and train9,
 we should use the train0 data to calculate the feature for train1, and
