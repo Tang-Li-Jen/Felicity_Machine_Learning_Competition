@@ -47,6 +47,7 @@ the final submissions.
 ## Result
 We are Team **NTUBusinessSchool** and got the **5th** prize in private leaderboard.  
 
+![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/public_rank.PNG)
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/rank.PNG)
 ## Improvement
 During the feature engineering process, some of the features were the
