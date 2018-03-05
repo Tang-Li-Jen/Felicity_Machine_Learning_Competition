@@ -50,7 +50,7 @@ We are Team **NTUBusinessSchool** and got the **5th** prize in private leaderboa
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/rank.PNG)
 ## Improvement
 During the feature engineering process, some of the features were the
-arg. Of the groups data, which might data peeking problem (the feature
+arg. Of the groups data, which might **data peeking problem** (the feature
 contain the information of the response). And this prevented the model
 from representing the ground true, and made our cross validation error
 inconsistent with the score in public leaderboard.
