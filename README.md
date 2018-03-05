@@ -6,8 +6,9 @@ Dota2 is a free-to-play multiplayer online battle arena (MOBA) video game, which
 
 ## Dataset
 Train and test datasets, from different set of users, contain user-hero pairs information. They are divided into two datasets respectively(train9.csv & train1.csv and test9.csv & test1.csv). 1 means one of the user's ten most frequent heros and the residuals are 9, which is chosen randomly. The aim is to predict the kda_ratio in test1.csv.
-![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/user_role_feature.PNG)
-We also have "hero_data.csv" which contains information about heros.  
+![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/user_role_feature.PNG)    
+
+We also have "hero_data.csv" which contains information about heros.   
 
 ![image](https://github.com/Tang-Li-Jen/Felicity_Machine_Learning_Competition/blob/master/images/role_feature.PNG)
 
