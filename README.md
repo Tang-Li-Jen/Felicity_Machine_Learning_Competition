@@ -1,4 +1,4 @@
-# -Felicity_Machine_Learning_Competition
+# Felicity_Machine_Learning_Competition
 The competition was held by **Analytics Vidhya**, a data science competition platform in India. I teamed up with **Lawrencesiao**. He is my best teammate and mentor in data science. Without his modeling skill, we cannot reach the top rank. If you have any interest, you can see his github here(https://github.com/lawrencesiao)
 ## Problem Statement
 Dota2 is a free-to-play multiplayer online battle arena (MOBA) video game, which is played in matches between two teams of five players occupying and defending their own separate base on the map. Each player(user) can independently control one powerful character(hero) who has unique abilities and skills.  
